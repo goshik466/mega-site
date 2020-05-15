@@ -1,0 +1,160 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Poppins:wght@500&display=swap');
+
+body{
+background: greenyellow;
+margin:0;
+
+}
+
+#middle{
+    margin-top: -20px;
+z-index: 10;
+max-height:800px;
+
+
+}
+#dir{
+font-size: 50px;
+
+
+}
+#backBl{
+margin-top: -35%;
+margin-left:7%;
+text-align: left;
+}
+.dirty{
+    max-height:100px;
+    display: flex;
+    justify-content: center;
+    
+    margin:2%;
+    margin-top: -0.1%;
+
+}
+#log{
+    margin-top: 20%;
+}
+button{
+    font-size: 13px;
+    height:50px;
+    margin:2%;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-top:12%;
+    
+}
+li{
+    list-style-type: none;
+    font-family:  'Poppins', sans-serif;
+    font-size: 15px;
+    margin:2%;
+    text-transform: uppercase;
+    margin-top: 6%;
+    
+    padding-bottom: 60px;
+}
+li:hover{
+    color:blue;
+    border-bottom: 2px solid blue;
+    cursor: pointer;
+}
+button:focus{
+outline: none;
+
+}
+
+#btn-first:active{
+    transform: scale(0.90);
+    
+}
+
+#btn-second:active{
+    transform: scale(0.90);
+    
+    
+}
+#btn-first{
+    color:white; 
+    background: blue; 
+    border:none;
+}
+#btn-second{
+    border:1px solid blue; 
+    color:black; 
+    background: transparent;
+}
+#one{
+    width:10%;
+    position: relative;
+    right:7%;
+}
+#two{
+position: relative;
+width: 45%;
+left:12%;
+}
+
+#three{
+    position: relative;
+    width:15%;
+    
+    left:7%;
+}
+
+#menu{
+height:100px;
+background-color: white;
+
+width:100%;
+display: flex;
+justify-content:center;
+}
+#lorem{
+font-size: 20px;
+margin-top: -0.1%;
+}
+
+
+
+
+#background-img{
+    height:800px;
+    width:100%;
+    position: relative;
+    z-index: -10;
+    
+}
+#dir{
+    margin-top: 15%;
+    text-transform: uppercase;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    
+    color:#262626;
+}
+.p1{
+font-size: 17px;
+margin-top: 10%;
+}
+#main{
+display: flex;
+justify-content: center;
+background: white;
+height:350px;
+padding: 50px 50px 50px;
+}
+
+.mini{
+
+height:300px;
+width:50%;
+margin:3%;
+text-align: left;
+}
